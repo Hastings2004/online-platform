@@ -8,7 +8,7 @@ session_start();
 <link rel="stylesheet" href="styles.css">
 
 <div class="wrapper">
-    <h2>Welcome to the Online Platform</h2>
+    <h2>Welcome to Online Platform</h2>
     <p>This is the place where you can buy and sell products with ease.</p>
     
     <?php if (!isset($_SESSION['user_id'])): ?>
